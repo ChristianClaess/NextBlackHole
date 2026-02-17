@@ -1,8 +1,10 @@
 # Raycasted simulation of a black hole
-This project is a real-time simulation of a black hole using WebGPU, ThreeJS and NextJS. At the moment it features gravitational lensing effects using WebGPU raycasting. In the future, I plan on integrating procedurally generated background (stars, nebula, galaxy), as well as an accretion disk and doppler shifts.
----
 
-![Example figure]()
+
+This project is a real-time simulation of a black hole using WebGPU, ThreeJS and NextJS. At the moment it features gravitational lensing effects using WebGPU raycasting. In the future, I plan on integrating procedurally generated background (stars, nebula, galaxy), as well as an accretion disk and doppler shifts.
+
+
+![Example figure](https://github.com/ChristianClaess/NextBlackHole/blob/main/public/example.png)
 ---
 ### Requirements
 * needs a decent GPU
