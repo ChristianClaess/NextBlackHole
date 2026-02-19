@@ -35,6 +35,7 @@ const loadTextures = (uniforms: any) => {
     const loader = new THREE.TextureLoader();
 
     //milkyway
+    
     const milkyway = loader.load("/milkyway.jpg");
     uniforms.milkywayTexture = texture(milkyway);
     milkyway.generateMipmaps = false; // key for sharpness
