@@ -29,21 +29,20 @@ import {
   length,
 } from "three/tsl";
 import { add } from "three/src/nodes/TSL.js";
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const loadTextures = (uniforms: any) => {
     const loader = new THREE.TextureLoader();
-    console.log(basePath)
+
 
     //milkyway
     
-    const milkyway = loader.load(`${basePath}/milkyway.jpg`);
+    const milkyway = loader.load(`milkyway.jpg`);
     uniforms.milkywayTexture = texture(milkyway);
     milkyway.generateMipmaps = false; // key for sharpness
     milkyway.magFilter = THREE.LinearFilter;
     milkyway.minFilter = THREE.LinearFilter;
     milkyway.needsUpdate = true;
     //stars
-    const stars = loader.load(`${basePath}/stars.png`);
+    const stars = loader.load(`/stars.png`);
     uniforms.starTexture = texture(stars);
 
 
