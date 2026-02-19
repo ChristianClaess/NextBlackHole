@@ -36,14 +36,14 @@ const loadTextures = (uniforms: any) => {
 
     //milkyway
     
-    const milkyway = loader.load("${basepath}/milkyway.jpg");
+    const milkyway = loader.load(`${basePath}/milkyway.jpg`);
     uniforms.milkywayTexture = texture(milkyway);
     milkyway.generateMipmaps = false; // key for sharpness
     milkyway.magFilter = THREE.LinearFilter;
     milkyway.minFilter = THREE.LinearFilter;
     milkyway.needsUpdate = true;
     //stars
-    const stars = loader.load("${basepath}/stars.png");
+    const stars = loader.load(`${basePath}/stars.png`);
     uniforms.starTexture = texture(stars);
 
 
