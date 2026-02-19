@@ -30,9 +30,9 @@ import {
 } from "three/tsl";
 import { add } from "three/src/nodes/TSL.js";
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-
 const loadTextures = (uniforms: any) => {
     const loader = new THREE.TextureLoader();
+    console.log(basePath)
 
     //milkyway
     
