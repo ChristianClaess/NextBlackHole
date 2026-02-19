@@ -9,7 +9,7 @@ import {
   cameraPosition,
 } from "three/tsl";
 
-import {createShader } from "./BH_image";
+import {createShader } from "./hole_image_util";
 
 const initHole = async (): Promise<{
   scene: THREE.Scene;
